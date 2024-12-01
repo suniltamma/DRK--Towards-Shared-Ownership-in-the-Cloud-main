@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Towards</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body id="top">
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <style>
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+      <div id="logo" style="align-content: center">
+   <center>   <h3 style="font-family: Poppins-Regular;font-size: 28px; padding: 20px;"><a href="index.html">Towards Shared Ownership In The Cloud</a></h3></center>
+    </div>
+  </header>
+</div>
+    
+
+    <div class="wrapper row2" >
+  <nav id="mainav" class="hoc clear"> 
+   
+    <ul class="clear" style="float: center">
+       <li  class="active"><a style="text-decoration: none;" href="index.html">Home</a></li>
+      <li><a style="text-decoration: none;" href="osignin.jsp">Data Owner</a></li>
+      <li><a style="text-decoration: none;" href="usignin.jsp">Data User</a></li>
+      <li><a style="text-decoration: none;" href="cloudService.jsp">Cloud Service</a></li>
+      <li><a href="cloudverify.jsp">Cloud</a></li>
+      
+    </ul>  
+  </nav>
+</div>
+       
+<div class="bgded overlay" style="background-image:url(images/back.jpg);">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="flexslider basicslider">
+      <ul class="slides">
+        <li>
+      <center>   <h3>Abstract</h3></center>
+       <p style="font-size: 14px; text-align: center;line-height:22px ">Cloud storage platforms promise a convenient way for
+users to share files and engage in collaborations, yet they require all
+files to have a single owner who unilaterally makes access control
+decisions. Existing clouds are, thus, agnostic to the notion of shared
+ownership. This can be a significant limitation inmany collaborations
+because, for example, one owner can delete files and revoke access
+without consulting the other collaborators.
+In this paper, we first formally define a notion of shared ownership
+within a file access control model. We then propose two possible
+instantiations of our proposed shared ownership model. Our first
+solution, called Commune, relies on secure file dispersal and collusionresistant
+secret sharing to ensure that all access grants in the cloud
+require the support of an agreed threshold of owners. As such,
+Commune can be used in existing clouds without modifications to
+the platforms. Our second solution, dubbed Comrade, leverages
+the blockchain technology in order to reach consensus on access
+control decision. Unlike Commune, Comrade requires that the cloud
+is able to translate access control decisions that reach consensus
+in the blockchain into storage access control rules, thus requiring
+minor modifications to existing clouds. We analyze the security of
+our proposals and compare/evaluate their performance through
+implementations using Amazon S3.</p>
+   </li>
+        
+      
+      </ul>
+    </div>
+   
+  </div>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="index.html">TSIOC</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="index.html">TSOIC</a></p>
+  
+  </div>
+</div>
+
+
+</body>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.flexslider-min.js"></script>
+</html>
